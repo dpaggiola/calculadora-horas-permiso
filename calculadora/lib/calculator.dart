@@ -58,11 +58,12 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Theme.of(context).colorScheme.inversePrimary,
+        backgroundColor: const Color(0xFF69366B),
         title: const Text(
-          "Calculadora de horas",
+          "Calculadora de horas permiso",
           style: TextStyle(
-            fontSize: 20,
+            fontSize: 22,
+            color: Color(0xFFFFFBFF),
           ),
         ),
       ),
